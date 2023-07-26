@@ -11,7 +11,7 @@ def read_from_database():
     f.close
 
 def write_to_database():
-    f = open("database.txt", "w")
+    f = open("G:\Python\PyLearn7\Assignment7\database.txt", "w")
     for product in PRODUCTS:
         f.write(f"{product['code']},{product['name']},{product['price']},{product['count']}\n")
     f.close()
